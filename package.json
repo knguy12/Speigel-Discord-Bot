@@ -1,0 +1,22 @@
+{
+  "name": "spike-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot based on the popular Cowboy Bebop Character Spike Spiegel",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-fetch": "^2.6.0",
+    "node-superfetch": "^0.1.10",
+    "random-puppy": "^1.1.0",
+    "snekfetch": "^4.0.4"
+  }
+}
