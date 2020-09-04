@@ -1,5 +1,5 @@
 const {MessageEmbed} = require('discord.js')
-const plots = require('C:/Users/Administrator/Desktop/Spike Bot/Databases/plots.json')
+const plots = require('../../Databases/plots.json')
 var correctAnswer = false
 module.exports = {
     name: 'guessplot',

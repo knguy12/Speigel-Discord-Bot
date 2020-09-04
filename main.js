@@ -1,5 +1,6 @@
 const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
+const ticket = require('./token.json')
 
 const client = new Client({
     disableEveryone: true
@@ -55,7 +56,7 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login('NzQ4NzUwNTg2MTU3MjAzNDc2.X0h-Ug.yDE4xhcGTPnUpRPbWb_XKsYBC7Q');
+client.login(ticket.Token);
 
 //I DID NOT WRITE THIS
 //All credit goes to Source Code

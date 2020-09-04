@@ -1,4 +1,4 @@
-const openings = require('C:/Users/Administrator/Desktop/Spike Bot/Databases/openings.json')
+const openings = require('../../Databases/openings.json')
 var amountOfOpenings = openings.length
 
 module.exports = {
